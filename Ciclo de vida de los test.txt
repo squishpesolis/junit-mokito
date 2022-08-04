@@ -1,0 +1,10 @@
+@BeforeAll
+	- Se ejecuta una sola vez durante la ejecucion de la prueba unitaria y antes de todos los metodos
+@AfterAll
+	- Se ejecuta una sola vez cuando finaliza la prueba
+
+@BeforeEach
+	- Antes que se ejecuta un metodo, ejecutar una tarea
+
+@BeforeEach
+	- Despues que se ejecuta un metodo, ejecutar una tarea
