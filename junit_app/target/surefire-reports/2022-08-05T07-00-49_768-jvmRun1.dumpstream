@@ -1,0 +1,810 @@
+# Created at 2022-08-05T07:00:53.285
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-08-05T07:00:54.169
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,org.squishpe.junit5app.examples.models.AccountTest,null,null,null
+
+
+# Created at 2022-08-05T07:00:54.266
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccount,null,null,null
+
+
+# Created at 2022-08-05T07:00:54.315
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:00:54.350
+Unexpected IOException with stream: Executing: testDebitAccount() testDebitAccount
+
+
+# Created at 2022-08-05T07:00:54.417
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccount,null,null,null
+
+
+# Created at 2022-08-05T07:00:54.419
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testTimeOut,null,null,null
+
+
+# Created at 2022-08-05T07:00:54.422
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:00:54.424
+Unexpected IOException with stream: Executing: testTimeOut() testTimeOut
+
+
+# Created at 2022-08-05T07:00:59.487
+Unexpected IOException: 7,1,org.squishpe.junit5app.examples.models.AccountTest,testTimeOut,null,testTimeOut() timed out after 5 seconds,null,testTimeOut() timed out after 5 seconds,AccountTest.testTimeOut \00BB Timeout testTimeOut() timed out after 5 seconds,java.util.concurrent.TimeoutException: testTimeOut() timed out after 5 seconds\000A
+
+
+# Created at 2022-08-05T07:00:59.489
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccount,null,null,null
+
+
+# Created at 2022-08-05T07:00:59.522
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:00:59.526
+Unexpected IOException with stream: Executing: testBalanceAccount() testBalanceAccount
+
+
+# Created at 2022-08-05T07:00:59.552
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccount,null,null,null
+
+
+# Created at 2022-08-05T07:00:59.554
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testCountNameInfo,null,null,null
+
+
+# Created at 2022-08-05T07:00:59.682
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:00:59.683
+Unexpected IOException with stream: Executing: testing account name testCountNameInfo
+
+
+# Created at 2022-08-05T07:00:59.686
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testCountNameInfo,null,null,null
+
+
+# Created at 2022-08-05T07:00:59.717
+Unexpected IOException: 9,1,org.squishpe.junit5app.examples.models.AccountTest,testOnlyJdk8,null,Disabled on JRE version: 11.0.13,null
+
+
+# Created at 2022-08-05T07:00:59.796
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDev,null,null,null
+
+
+# Created at 2022-08-05T07:00:59.850
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:00:59.879
+Unexpected IOException with stream: Executing: testBalanceAccountDev() testBalanceAccountDev
+
+
+# Created at 2022-08-05T07:00:59.914
+Unexpected IOException: G,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDev,null,Assumption failed: assumption is not true,null,Assumption failed: assumption is not true,AccountTest.testBalanceAccountDev:179 \00BB TestAborted Assumption failed: assumpt...,org.opentest4j.TestAbortedException: Assumption failed: assumption is not true\000A\0009at org.squishpe.junit5app.examples.models.AccountTest.testBalanceAccountDev(AccountTest.java:179)\000A
+
+
+# Created at 2022-08-05T07:01:00.094
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.099
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:00.114
+Unexpected IOException with stream: Executing: number 1 executed with value 1, 100 testDebitAccounBalancetParamsCsvSource
+
+
+# Created at 2022-08-05T07:01:00.272
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.302
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.313
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:00.318
+Unexpected IOException with stream: Executing: number 2 executed with value 2, 200 testDebitAccounBalancetParamsCsvSource
+
+
+# Created at 2022-08-05T07:01:00.348
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.376
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.378
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:00.379
+Unexpected IOException with stream: Executing: number 3 executed with value 3, 500 testDebitAccounBalancetParamsCsvSource
+
+
+# Created at 2022-08-05T07:01:00.381
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.384
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[4],null,null,null
+
+
+# Created at 2022-08-05T07:01:00.441
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:00.443
+Unexpected IOException with stream: Executing: number 4 executed with value 4, 1000.123456 testDebitAccounBalancetParamsCsvSource
+
+
+# Created at 2022-08-05T07:01:00.448
+Unexpected IOException: 8,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsCsvSource{String\002C String}[4],null,expected: <true> but was: <false>,null,expected: <true> but was: <false>,AccountTest.testDebitAccounBalancetParamsCsvSource:227 expected: <true> but was: <false>,org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\000A\0009at org.squishpe.junit5app.examples.models.AccountTest.testDebitAccounBalancetParamsCsvSource(AccountTest.java:227)\000A
+
+
+# Created at 2022-08-05T07:01:00.451
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testTimeOutMilliseconds,null,null,null
+
+
+# Created at 2022-08-05T07:01:00.453
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:00.454
+Unexpected IOException with stream: Executing: testTimeOutMilliseconds() testTimeOutMilliseconds
+
+
+# Created at 2022-08-05T07:01:01.009
+Unexpected IOException: 7,1,org.squishpe.junit5app.examples.models.AccountTest,testTimeOutMilliseconds,null,testTimeOutMilliseconds() timed out after 500 milliseconds,null,testTimeOutMilliseconds() timed out after 500 milliseconds,AccountTest.testTimeOutMilliseconds \00BB Timeout testTimeOutMilliseconds() timed ...,java.util.concurrent.TimeoutException: testTimeOutMilliseconds() timed out after 500 milliseconds\000A
+
+
+# Created at 2022-08-05T07:01:01.018
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,printSystemProperties,null,null,null
+
+
+# Created at 2022-08-05T07:01:01.045
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:01.112
+Unexpected IOException with stream: Executing: printSystemProperties() printSystemProperties
+
+
+# Created at 2022-08-05T07:01:01.147
+Unexpected IOException with stream: sun.desktop:windows
+
+
+# Created at 2022-08-05T07:01:01.217
+Unexpected IOException with stream: awt.toolkit:sun.awt.windows.WToolkit
+
+
+# Created at 2022-08-05T07:01:01.239
+Unexpected IOException with stream: java.specification.version:11
+
+
+# Created at 2022-08-05T07:01:01.242
+Unexpected IOException with stream: sun.cpu.isalist:amd64
+
+
+# Created at 2022-08-05T07:01:01.244
+Unexpected IOException with stream: sun.jnu.encoding:Cp1252
+
+
+# Created at 2022-08-05T07:01:01.246
+Unexpected IOException with stream: java.class.path:C:\TEMPORAL-STALYN\Ruta Aprendizaje Arquitecto de software\Junit5 y Mockito\junit_app\target\test-classes;C:\TEMPORAL-STALYN\Ruta Aprendizaje Arquitecto de software\Junit5 y Mockito\junit_app\target\classes;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\stali\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\stali\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\stali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\stali\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;
+
+
+# Created at 2022-08-05T07:01:01.280
+Unexpected IOException with stream: java.vm.vendor:Oracle Corporation
+
+
+# Created at 2022-08-05T07:01:01.312
+Unexpected IOException with stream: sun.arch.data.model:64
+
+
+# Created at 2022-08-05T07:01:01.322
+Unexpected IOException with stream: user.variant:
+
+
+# Created at 2022-08-05T07:01:01.399
+Unexpected IOException with stream: java.vendor.url:https://openjdk.java.net/
+
+
+# Created at 2022-08-05T07:01:01.416
+Unexpected IOException with stream: user.timezone:America/Bogota
+
+
+# Created at 2022-08-05T07:01:01.443
+Unexpected IOException with stream: os.name:Windows 10
+
+
+# Created at 2022-08-05T07:01:01.444
+Unexpected IOException with stream: java.vm.specification.version:11
+
+
+# Created at 2022-08-05T07:01:01.445
+Unexpected IOException with stream: sun.java.launcher:SUN_STANDARD
+
+
+# Created at 2022-08-05T07:01:01.446
+Unexpected IOException with stream: user.country:ES
+
+
+# Created at 2022-08-05T07:01:01.472
+Unexpected IOException with stream: sun.boot.library.path:C:\TEMPORAL-STALYN\CURSOS\SPRING_BOOT\jdk_11\bin
+
+
+# Created at 2022-08-05T07:01:01.478
+Unexpected IOException with stream: sun.java.command:C:\Users\stali\AppData\Local\Temp\surefire12839878528984111755\surefirebooter504377861737947285.jar C:\Users\stali\AppData\Local\Temp\surefire12839878528984111755 2022-08-05T07-00-49_768-jvmRun1 surefire12844790679110412286tmp surefire_06101262271402979736tmp
+
+
+# Created at 2022-08-05T07:01:01.489
+Unexpected IOException with stream: jdk.debug:release
+
+
+# Created at 2022-08-05T07:01:01.500
+Unexpected IOException with stream: surefire.test.class.path:C:\TEMPORAL-STALYN\Ruta Aprendizaje Arquitecto de software\Junit5 y Mockito\junit_app\target\test-classes;C:\TEMPORAL-STALYN\Ruta Aprendizaje Arquitecto de software\Junit5 y Mockito\junit_app\target\classes;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\stali\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\stali\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\stali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\stali\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\stali\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;
+
+
+# Created at 2022-08-05T07:01:01.502
+Unexpected IOException with stream: sun.cpu.endian:little
+
+
+# Created at 2022-08-05T07:01:01.504
+Unexpected IOException with stream: user.home:C:\Users\stali
+
+
+# Created at 2022-08-05T07:01:01.507
+Unexpected IOException with stream: user.language:es
+
+
+# Created at 2022-08-05T07:01:01.514
+Unexpected IOException with stream: java.specification.vendor:Oracle Corporation
+
+
+# Created at 2022-08-05T07:01:01.516
+Unexpected IOException with stream: java.version.date:2021-10-19
+
+
+# Created at 2022-08-05T07:01:01.517
+Unexpected IOException with stream: java.home:C:\TEMPORAL-STALYN\CURSOS\SPRING_BOOT\jdk_11
+
+
+# Created at 2022-08-05T07:01:01.520
+Unexpected IOException with stream: file.separator:\
+
+
+# Created at 2022-08-05T07:01:01.523
+Unexpected IOException with stream: basedir:C:\TEMPORAL-STALYN\Ruta Aprendizaje Arquitecto de software\Junit5 y Mockito\junit_app
+
+
+# Created at 2022-08-05T07:01:01.525
+Unexpected IOException with stream: java.vm.compressedOopsMode:Zero based
+
+
+# Created at 2022-08-05T07:01:01.528
+Unexpected IOException with stream: line.separator:
+
+
+
+# Created at 2022-08-05T07:01:01.580
+Unexpected IOException with stream: java.specification.name:Java Platform API Specification
+
+
+# Created at 2022-08-05T07:01:01.650
+Unexpected IOException with stream: java.vm.specification.vendor:Oracle Corporation
+
+
+# Created at 2022-08-05T07:01:01.660
+Unexpected IOException with stream: java.awt.graphicsenv:sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2022-08-05T07:01:01.661
+Unexpected IOException with stream: surefire.real.class.path:C:\Users\stali\AppData\Local\Temp\surefire12839878528984111755\surefirebooter504377861737947285.jar
+
+
+# Created at 2022-08-05T07:01:01.663
+Unexpected IOException with stream: user.script:
+
+
+# Created at 2022-08-05T07:01:01.670
+Unexpected IOException with stream: sun.management.compiler:HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2022-08-05T07:01:01.672
+Unexpected IOException with stream: java.runtime.version:11.0.13+10-LTS-370
+
+
+# Created at 2022-08-05T07:01:01.681
+Unexpected IOException with stream: user.name:stali
+
+
+# Created at 2022-08-05T07:01:01.738
+Unexpected IOException with stream: path.separator:;
+
+
+# Created at 2022-08-05T07:01:01.742
+Unexpected IOException with stream: os.version:10.0
+
+
+# Created at 2022-08-05T07:01:01.752
+Unexpected IOException with stream: java.runtime.name:Java(TM) SE Runtime Environment
+
+
+# Created at 2022-08-05T07:01:01.754
+Unexpected IOException with stream: file.encoding:Cp1252
+
+
+# Created at 2022-08-05T07:01:01.755
+Unexpected IOException with stream: java.vm.name:Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2022-08-05T07:01:01.816
+Unexpected IOException with stream: java.vendor.version:18.9
+
+
+# Created at 2022-08-05T07:01:01.848
+Unexpected IOException with stream: localRepository:C:\Users\stali\.m2\repository
+
+
+# Created at 2022-08-05T07:01:01.886
+Unexpected IOException with stream: java.vendor.url.bug:https://bugreport.java.com/bugreport/
+
+
+# Created at 2022-08-05T07:01:01.931
+Unexpected IOException with stream: java.io.tmpdir:C:\Users\stali\AppData\Local\Temp\
+
+
+# Created at 2022-08-05T07:01:01.933
+Unexpected IOException with stream: idea.version:2022.1.3
+
+
+# Created at 2022-08-05T07:01:01.934
+Unexpected IOException with stream: java.version:11.0.13
+
+
+# Created at 2022-08-05T07:01:01.936
+Unexpected IOException with stream: user.dir:C:\TEMPORAL-STALYN\Ruta Aprendizaje Arquitecto de software\Junit5 y Mockito\junit_app
+
+
+# Created at 2022-08-05T07:01:01.937
+Unexpected IOException with stream: os.arch:amd64
+
+
+# Created at 2022-08-05T07:01:01.983
+Unexpected IOException with stream: java.vm.specification.name:Java Virtual Machine Specification
+
+
+# Created at 2022-08-05T07:01:01.984
+Unexpected IOException with stream: java.awt.printerjob:sun.awt.windows.WPrinterJob
+
+
+# Created at 2022-08-05T07:01:01.985
+Unexpected IOException with stream: sun.os.patch.level:
+
+
+# Created at 2022-08-05T07:01:01.986
+Unexpected IOException with stream: java.library.path:C:\TEMPORAL-STALYN\CURSOS\SPRING_BOOT\jdk_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\PRESTASHOP\EXTENCIONES WINDOWS\ImageMagick-7.1.0-Q16-HDRI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\stali\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\ProgramData\chocolatey\bin;C:\Users\stali\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\stali\AppData\Local\Programs\Python\Python39\;C:\Users\stali\AppData\Local\Microsoft\WindowsApps;C:\Users\stali\AppData\Local\Programs\Microsoft VS Code\bin;C:\TEMPORAL-STALYN\CURSOS\SPRING_BOOT\jdk_11\bin;C:\Users\stali\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\stali\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;;.
+
+
+# Created at 2022-08-05T07:01:01.987
+Unexpected IOException with stream: java.vendor:Oracle Corporation
+
+
+# Created at 2022-08-05T07:01:01.988
+Unexpected IOException with stream: java.vm.info:mixed mode
+
+
+# Created at 2022-08-05T07:01:01.992
+Unexpected IOException with stream: java.vm.version:11.0.13+10-LTS-370
+
+
+# Created at 2022-08-05T07:01:02.028
+Unexpected IOException with stream: sun.io.unicode.encoding:UnicodeLittle
+
+
+# Created at 2022-08-05T07:01:02.029
+Unexpected IOException with stream: java.class.version:55.0
+
+
+# Created at 2022-08-05T07:01:02.034
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,printSystemProperties,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.046
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.048
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.049
+Unexpected IOException with stream: Executing: number 1 executed with value 100 testDebitAccounBalancetParamsMethodSource
+
+
+# Created at 2022-08-05T07:01:02.088
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.111
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.113
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.114
+Unexpected IOException with stream: Executing: number 2 executed with value 200 testDebitAccounBalancetParamsMethodSource
+
+
+# Created at 2022-08-05T07:01:02.115
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.119
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.120
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.131
+Unexpected IOException with stream: Executing: number 3 executed with value 500 testDebitAccounBalancetParamsMethodSource
+
+
+# Created at 2022-08-05T07:01:02.133
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.138
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[4],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.144
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.146
+Unexpected IOException with stream: Executing: number 4 executed with value 999.123456 testDebitAccounBalancetParamsMethodSource
+
+
+# Created at 2022-08-05T07:01:02.148
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsMethodSource{String}[4],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.150
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testRelationAccountBank,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.176
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.178
+Unexpected IOException with stream: Executing: testRelationAccountBank() testRelationAccountBank
+
+
+# Created at 2022-08-05T07:01:02.181
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testRelationAccountBank,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.202
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.213
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.214
+Unexpected IOException with stream: Executing: number 1 executed with value 100 testDebitAccounBalancetParamsValueSource
+
+
+# Created at 2022-08-05T07:01:02.217
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.219
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.221
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.222
+Unexpected IOException with stream: Executing: number 2 executed with value 200 testDebitAccounBalancetParamsValueSource
+
+
+# Created at 2022-08-05T07:01:02.231
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.234
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.235
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.236
+Unexpected IOException with stream: Executing: number 3 executed with value 500 testDebitAccounBalancetParamsValueSource
+
+
+# Created at 2022-08-05T07:01:02.238
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.286
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[4],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.288
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.295
+Unexpected IOException with stream: Executing: number 4 executed with value 1000.123456 testDebitAccounBalancetParamsValueSource
+
+
+# Created at 2022-08-05T07:01:02.299
+Unexpected IOException: 8,1,org.squishpe.junit5app.examples.models.AccountTest,testDebitAccounBalancetParamsValueSource{String}[4],null,expected: <true> but was: <false>,null,expected: <true> but was: <false>,AccountTest.testDebitAccounBalancetParamsValueSource:217 expected: <true> but was: <false>,org.opentest4j.AssertionFailedError: expected: <true> but was: <false>\000A\0009at org.squishpe.junit5app.examples.models.AccountTest.testDebitAccounBalancetParamsValueSource(AccountTest.java:217)\000A
+
+
+# Created at 2022-08-05T07:01:02.309
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.312
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.313
+Unexpected IOException with stream: Executing: Number repetition {currentRepetitions} testBalanceAccountDevTwoRepeat
+
+
+# Created at 2022-08-05T07:01:02.317
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[1],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.320
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.328
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.329
+Unexpected IOException with stream: Executing: Number repetition {currentRepetitions} testBalanceAccountDevTwoRepeat
+
+
+# Created at 2022-08-05T07:01:02.331
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[2],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.387
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.394
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.395
+Unexpected IOException with stream: Executing: Number repetition {currentRepetitions} testBalanceAccountDevTwoRepeat
+
+
+# Created at 2022-08-05T07:01:02.410
+Unexpected IOException with stream: We is in the repetition 3
+
+
+# Created at 2022-08-05T07:01:02.412
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[3],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.415
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[4],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.418
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.419
+Unexpected IOException with stream: Executing: Number repetition {currentRepetitions} testBalanceAccountDevTwoRepeat
+
+
+# Created at 2022-08-05T07:01:02.426
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[4],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.442
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[5],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.449
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.450
+Unexpected IOException with stream: Executing: Number repetition {currentRepetitions} testBalanceAccountDevTwoRepeat
+
+
+# Created at 2022-08-05T07:01:02.452
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwoRepeat{RepetitionInfo}[5],null,null,null
+
+
+# Created at 2022-08-05T07:01:02.477
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testInsufficientMoneyException,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.480
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.481
+Unexpected IOException with stream: Executing: testInsufficientMoneyException() testInsufficientMoneyException
+
+
+# Created at 2022-08-05T07:01:02.486
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testInsufficientMoneyException,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.514
+Unexpected IOException: 9,1,org.squishpe.junit5app.examples.models.AccountTest,testIfSystemProperties,null,System property [java.version] with value [11.0.13] does not match regular expression [15.0.1],null
+
+
+# Created at 2022-08-05T07:01:02.515
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testCreditAccount,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.519
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.520
+Unexpected IOException with stream: Executing: testCreditAccount() testCreditAccount
+
+
+# Created at 2022-08-05T07:01:02.521
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testCreditAccount,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.524
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testReferenceAccount,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.527
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.528
+Unexpected IOException with stream: Executing: testReferenceAccount() testReferenceAccount
+
+
+# Created at 2022-08-05T07:01:02.530
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testReferenceAccount,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.534
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwo,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.544
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.545
+Unexpected IOException with stream: Executing: testBalanceAccountDevTwo() testBalanceAccountDevTwo
+
+
+# Created at 2022-08-05T07:01:02.548
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testBalanceAccountDevTwo,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.559
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest,testCountName,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.561
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.562
+Unexpected IOException with stream: Executing: testing account name testCountName
+
+
+# Created at 2022-08-05T07:01:02.571
+Unexpected IOException with stream: testing account name
+
+
+# Created at 2022-08-05T07:01:02.578
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest,testCountName,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.593
+Unexpected IOException: 9,1,org.squishpe.junit5app.examples.models.AccountTest$operatingSystemTest,testEnvironmentNoWindows,null,Disabled on operating system: Windows 10,null
+
+
+# Created at 2022-08-05T07:01:02.596
+Unexpected IOException: 9,1,org.squishpe.junit5app.examples.models.AccountTest$operatingSystemTest,testEnvironmentLinux,null,Disabled on operating system: Windows 10,null
+
+
+# Created at 2022-08-05T07:01:02.601
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.AccountTest$operatingSystemTest,testEnvironmentWindows,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.603
+Unexpected IOException with stream: Init-Test
+
+
+# Created at 2022-08-05T07:01:02.605
+Unexpected IOException with stream: Executing: testEnvironmentWindows() testEnvironmentWindows
+
+
+# Created at 2022-08-05T07:01:02.610
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.AccountTest$operatingSystemTest,testEnvironmentWindows,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.648
+Unexpected IOException: 9,1,org.squishpe.junit5app.examples.models.AccountTest$operatingSystemTest,testEnvironmentLinuxAndMac,null,Disabled on operating system: Windows 10,null
+
+
+# Created at 2022-08-05T07:01:02.677
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,org.squishpe.junit5app.examples.models.AccountTest,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.679
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,org.squishpe.junit5app.examples.models.BankTest,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.681
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.BankTest,testRelationBankAccounts,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.684
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.BankTest,testRelationBankAccounts,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.686
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.BankTest,testBankHasAccountWithNameStalyn,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.692
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.BankTest,testBankHasAccountWithNameStalyn,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.694
+Unexpected IOException: 5,1,org.squishpe.junit5app.examples.models.BankTest,testTranferMoneyBetweenAccount,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.697
+Unexpected IOException: 6,1,org.squishpe.junit5app.examples.models.BankTest,testTranferMoneyBetweenAccount,null,null,null
+
+
+# Created at 2022-08-05T07:01:02.698
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,org.squishpe.junit5app.examples.models.BankTest,null,null,null
+
+

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.squishpe.junit5app.examples.models.AccountTest
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 2, Errors: 2, Skipped: 6, Time elapsed: 7.03 s <<< FAILURE! - in org.squishpe.junit5app.examples.models.AccountTest
+testTimeOut  Time elapsed: 5.08 s  <<< ERROR!
+java.util.concurrent.TimeoutException: testTimeOut() timed out after 5 seconds
+
+testDebitAccounBalancetParamsCsvSource{String, String}[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.squishpe.junit5app.examples.models.AccountTest.testDebitAccounBalancetParamsCsvSource(AccountTest.java:227)
+
+testTimeOutMilliseconds  Time elapsed: 0.514 s  <<< ERROR!
+java.util.concurrent.TimeoutException: testTimeOutMilliseconds() timed out after 500 milliseconds
+
+testDebitAccounBalancetParamsValueSource{String}[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.squishpe.junit5app.examples.models.AccountTest.testDebitAccounBalancetParamsValueSource(AccountTest.java:217)
+
